@@ -1,4 +1,4 @@
-array = ["if", "she", "brings", "me", "to", "my", "knees", "it's", "a", "bad", "religion"]
+array = ["if", "it", "brings", "me", "to", "my", "knees", "it's", "a", "bad", "religion"]
 
 def my_each array 
   i = 0 
