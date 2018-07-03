@@ -1,3 +1,15 @@
-def my_each # put argument(s) here
-  # code here
+array = ["if", "she", "brings", "me", "to", "my", "knees", "it's", "a", "bad", "religion"]
+
+def my_each array 
+  i = 0 
+  while i < array.length 
+    yield array[i]
+    i += 1
+  end
+  array
 end
+
+my_each array do |lyrics|
+  lyrics
+end
+
